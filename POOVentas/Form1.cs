@@ -1,3 +1,5 @@
+using POOVentas.Properties;
+
 namespace POOVentas
 {
     public partial class Form1 : Form
@@ -5,6 +7,7 @@ namespace POOVentas
         public Form1()
         {
             InitializeComponent();
+            
         }
 
         private void btnVentaContado_Click(object sender, EventArgs e)

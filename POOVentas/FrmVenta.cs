@@ -113,7 +113,7 @@
             }
 
         }
-
+       
         private void TxtDescripcion_TextChanged(object sender, EventArgs e)
         {
 

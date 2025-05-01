@@ -24,8 +24,8 @@ namespace POOVentas.Properties {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     internal class Resources {
-        internal static readonly Image _7ELEEVEN;
-        internal static readonly Image INSIDE;
+        internal static readonly Image ELEVEN;
+        
         private static global::System.Resources.ResourceManager resourceMan;
         
         private static global::System.Globalization.CultureInfo resourceCulture;
@@ -61,6 +61,11 @@ namespace POOVentas.Properties {
                 resourceCulture = value;
             }
 
+        }
+
+        internal static void Add(string v, object value)
+        {
+            throw new NotImplementedException();
         }
     }
 }

@@ -38,7 +38,7 @@
             btnVentaCredito.BackColor = SystemColors.ScrollBar;
             btnVentaCredito.Font = new Font("Perpetua Titling MT", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
             btnVentaCredito.ForeColor = SystemColors.Desktop;
-            btnVentaCredito.Location = new Point(29, 199);
+            btnVentaCredito.Location = new Point(33, 112);
             btnVentaCredito.Name = "btnVentaCredito";
             btnVentaCredito.Size = new Size(193, 137);
             btnVentaCredito.TabIndex = 0;
@@ -50,7 +50,7 @@
             // 
             btnVentaContado.BackColor = SystemColors.ScrollBar;
             btnVentaContado.Font = new Font("Perpetua Titling MT", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            btnVentaContado.Location = new Point(258, 199);
+            btnVentaContado.Location = new Point(249, 112);
             btnVentaContado.Name = "btnVentaContado";
             btnVentaContado.Size = new Size(199, 137);
             btnVentaContado.TabIndex = 1;
@@ -62,7 +62,7 @@
             // 
             btnVentaCortesia.BackColor = SystemColors.ScrollBar;
             btnVentaCortesia.Font = new Font("Perpetua Titling MT", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            btnVentaCortesia.Location = new Point(494, 199);
+            btnVentaCortesia.Location = new Point(471, 112);
             btnVentaCortesia.Name = "btnVentaCortesia";
             btnVentaCortesia.Size = new Size(193, 137);
             btnVentaCortesia.TabIndex = 2;
@@ -74,7 +74,7 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(728, 466);
+            ClientSize = new Size(705, 380);
             Controls.Add(btnVentaCortesia);
             Controls.Add(btnVentaContado);
             Controls.Add(btnVentaCredito);
